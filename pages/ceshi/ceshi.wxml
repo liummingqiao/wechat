@@ -1,0 +1,6 @@
+<button type="button" style="border-radius: 20px;" class="btn-style" bindtap="touchdown_plugin" >按下录音</button>
+<button type='button'  bindtap="touchup_plugin" class="btn-style">单击over录音</button>
+<p>{{currentText}}123123</p>
+
+
+

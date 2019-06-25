@@ -1,0 +1,39 @@
+<view class='top'>{{tittle}}</view>
+
+<scroll-view scroll-y="true"   class='que' scroll-top="{{scrollTop}}">
+<block wx:for="{{syas}}"  wx:for-item="item" wx:key='{{syas}}' >
+<view class='con'>
+  <view class='isay'>
+  <view class='r-t'>
+    <text bindtap='to'  >{{item.isay}}</text>
+ </view>
+ <view class='r-i'> 
+     <image src='http://img.mp.sohu.com/upload/20170615/f78baaea6a0a42b7949d1efc3edc3013.png'></image>
+</view>
+  </view>
+  <view class='robort'>
+   <view class='l-i'>
+    <image src='http://photocdn.sohu.com/20151021/mp36853014_1445397282456_4.gif'></image>
+    </view>
+    <view class='qxfd'>
+    <view class='l-t'>
+    <text bindtap='cancel' data-text='{{item.robot}}' >{{item.robot}}</text>
+    </view>
+    </view>
+  </view>
+</view>
+</block>
+</scroll-view>
+
+<view class='send'>
+ 
+  <view class='input' >
+  <form bindsubmit='converSation'>
+   <input type='text' catchtap='hello'  class='text' placeholder='说点什么吧~' name='says' value="{{nr}}"></input>
+    <button class='btn' id='btn' form-type='submit'   wx:if="{{pd}}">▶</button>
+    </form>
+    <button class='btn-d' bindtap='delectChat' >╳</button>
+  </view>
+  
+</view>
+

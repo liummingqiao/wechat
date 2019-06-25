@@ -1,0 +1,175 @@
+.top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 80rpx;
+  background-color: #31C1ED;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgba(2, 2, 5, 0.87);
+  box-shadow: 16rpx -4rpx 30rpx rgb(209, 204, 204);
+}
+
+.top-r {
+  position: fixed;
+  left: 15px;
+  color: #7c22d6;
+  font-size: 30rpx;
+}
+
+.send {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 12vh;
+  line-height: 140px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 12rpx -4rpx 30rpx rgb(209, 204, 204);
+}
+
+scroll-view {
+  height: 980rpx;
+}
+
+.input {
+  position: fixed;
+  width: 100%;
+  bottom: 20rpx;
+}
+
+.text {
+  float: left;
+  margin-left: 20rpx;
+  width: 61%;
+  height: 66rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  background-color: rgb(239, 243, 243);
+  text-align: center;
+  color: #505050;
+}
+
+.btn {
+  float: left;
+  margin-left: 20rpx;
+  height: 62rpx;
+  width: 106rpx;
+  background-color:#31C1ED;
+  line-height: 62rpx;
+  font-size: 50rpx;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10rpx;
+  box-shadow: 6rpx 6rpx 24rpx -2rpx #968f96db;
+}
+
+.btn-d {
+  float: left;
+  margin-left: 16rpx;
+  height: 62rpx;
+  width: 104rpx;
+  background-color: rgb(0, 0, 0);
+  line-height: 62rpx;
+  color: #fafafa;
+  cursor: pointer;
+  border-radius: 10rpx;
+  box-shadow: 3px 3px 12px -1px #968f96db;
+  font-size: 35rpx;
+}
+
+.say {
+  float: right;
+  margin-right: 60rpx;
+  width: 60rpx;
+  height: 38rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  line-height: 38rpx;
+  color: #9f2dee;
+  cursor: pointer;
+  border-radius: 14rpx;
+}
+
+.que {
+  margin-top: 7vh;
+  width: 98%;
+  margin-left: 1%;
+  line-height: 64rpx;
+  margin-bottom: 13vh;
+}
+
+.robort {
+  width: 65%;
+  margin-top: 0px;
+}
+
+.robort image {
+  margin-bottom: -120rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 14rpx;
+}
+
+.robort text {
+  margin-left: 8rpx;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  color: black;
+}
+
+.isay {
+  margin-top: 10rpx;
+}
+
+.isay image {
+  float: right;
+  margin-right: -86vw;
+  width: 60rpx;
+  height: 60rpx;
+  background: darkblue;
+}
+
+.isay text {
+  margin-right: 10rpx;
+  float: right;
+  font-size: 28rpx;
+  color: black;
+}
+
+.con {
+  margin-top: 5%;
+  margin-left: 1%;
+  width: 98%;
+}
+.qxfd{
+  clear: both;
+  overflow: hidden;
+  zoom: 1
+}
+.l-i {
+  width: 60rpx;
+}
+
+.l-t {
+  float: left;
+  margin-top: 30rpx;
+  margin-left: 70rpx;
+  background: #F5F5F5;
+  border-radius: 10rpx;
+
+}
+
+.r-i {
+  width: 60rpx;
+}
+
+.r-t {
+  float: right;
+  margin-right: 82rpx;
+  border-radius: 10rpx;
+  background: #9eea6a;
+  text-align: center;
+  padding-left:10rpx ;
+}
